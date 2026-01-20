@@ -100,7 +100,7 @@ const Hero: React.FC = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.4 }}
                     >
-                        Se effekten på 15 minuter. Inga förpliktelser.
+                        Se effekten på 30 minuter. Inga förpliktelser.
                     </motion.p>
                 </div>
 
