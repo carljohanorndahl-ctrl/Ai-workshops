@@ -34,7 +34,7 @@ const CredibilitySection: React.FC = () => {
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 
                 <motion.h2 
-                    className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 tracking-tight"
+                    className="text-4xl md:text-5xl font-bold text-slate-900 mb-12 tracking-tight"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -42,9 +42,9 @@ const CredibilitySection: React.FC = () => {
                     För vem är workshopen?
                 </motion.h2>
 
-                <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-                    {/* Left Column: Content */}
-                    <div className="flex flex-col">
+                <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+                    {/* Left Column: Content - Order 2 on mobile, 1 on desktop */}
+                    <div className="flex flex-col justify-center order-2 lg:order-1">
                         <motion.div 
                             className="grid sm:grid-cols-2 gap-x-8 gap-y-8 mb-8"
                             initial={{ opacity: 0 }}
@@ -97,10 +97,20 @@ const CredibilitySection: React.FC = () => {
                         </motion.div>
                     </div>
 
-                    {/* Right Column: Empty Placeholder for Future Image */}
-                    <div className="hidden lg:block min-h-[300px]">
-                        {/* Space reserved for future image */}
-                    </div>
+                    {/* Right Column: Image - Order 1 on mobile, 2 on desktop */}
+                    <motion.div 
+                        className="relative h-[300px] lg:h-full w-full order-1 lg:order-2"
+                        initial={{ opacity: 0, x: 20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 }}
+                    >
+                        <img 
+                            src="/motesrum.png" 
+                            alt="Mötesrum workshop" 
+                            className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-xl"
+                        />
+                    </motion.div>
                 </div>
 
             </div>
