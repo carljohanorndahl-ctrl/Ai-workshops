@@ -50,12 +50,18 @@ const ProductTimeline: React.FC = () => {
             </div>
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
                     
-                    {/* Left: Text & Steps */}
-                    <div>
-                        <h2 className="text-4xl font-bold text-slate-900 mb-2">Ingen teori. Bara verkstad.</h2>
-                        <p className="text-slate-600 mb-12">Vi levererar färdiga lösningar, inte powerpoints.</p>
+                    {/* Left: Text & Steps - Order 2 on mobile, 1 on desktop */}
+                    <div className="flex flex-col justify-center order-2 lg:order-1">
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                        >
+                            <h2 className="text-4xl font-bold text-slate-900 mb-2">Ingen teori. Bara verkstad.</h2>
+                            <p className="text-slate-600 mb-12">Vi levererar färdiga lösningar, inte powerpoints.</p>
+                        </motion.div>
 
                         <div className="space-y-12 relative before:absolute before:left-6 before:top-4 before:bottom-4 before:w-0.5 before:bg-slate-100">
                             {steps.map((step, idx) => (
@@ -77,10 +83,20 @@ const ProductTimeline: React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Right: Empty Space (Placeholder) */}
-                    <div className="hidden lg:block min-h-[400px]">
-                        {/* Space reserved for future image */}
-                    </div>
+                    {/* Right: Image - Order 1 on mobile, 2 on desktop */}
+                    <motion.div 
+                        className="relative h-[300px] lg:h-full w-full order-1 lg:order-2"
+                        initial={{ opacity: 0, x: 20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 }}
+                    >
+                         <img 
+                            src="/kontorsrum.jpg" 
+                            alt="Kontorsrum workshop" 
+                            className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-xl"
+                        />
+                    </motion.div>
 
                 </div>
             </div>
