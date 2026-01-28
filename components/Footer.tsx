@@ -10,11 +10,11 @@ const Footer: React.FC = () => {
                         <circle cx="50" cy="50" r="45" stroke="currentColor" strokeWidth="6" />
                         <path d="M28 38C28 38 32 72 40 72C48 72 50 55 50 55C50 55 52 72 60 72C68 72 72 38 72 38" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
-                    <span className="text-slate-200 font-semibold text-lg">Workshops</span>
+                    <span className="text-slate-200 font-semibold text-lg">Simplestudio</span>
                 </div>
                 
                 <div className="text-slate-500 text-sm">
-                    © {new Date().getFullYear()} AI-Workshops AB. Alla rättigheter reserverade.
+                    © {new Date().getFullYear()} Alla rättigheter reserverade.
                 </div>
 
                 <div className="flex gap-6">

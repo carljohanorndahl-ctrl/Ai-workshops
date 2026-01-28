@@ -6,20 +6,20 @@ import { ArrowRight } from 'lucide-react';
 const CredibilitySection: React.FC = () => {
     const points = [
         {
-            title: "För ledningsgrupper som måste fatta beslut",
-            desc: "För organisationer där tid, tydlighet och genomförande är avgörande."
+            title: "För företag som vill effektivisera verksamheten med AI",
+            desc: "Ni får tydliga sätt hur ni kan använda AI i arbetet."
         },
         {
-            title: "Affärsnytta före teknik",
-            desc: "Vi utgår från effekt, tidsbesparing och konkreta resultat – inte AI-verktyg."
+            title: "För sälj och kundservice som vill jobba snabbare",
+            desc: "Effektivare uppföljning, snabbare svar och jämn kvalitet i all kundkommunikation."
         },
         {
-            title: "På plats, i er vardag",
-            desc: "Workshops genomförs on-site i Stockholm och runt om i Sverige."
+            title: "För ledningsgrupper som behöver bättre beslutsunderlag",
+            desc: "Sammanfattningar, analyser och tydliga insikter som gör beslutsfattandet enklare."
         },
         {
-            title: "Från analys till faktisk förändring",
-            desc: "Ni lämnar workshopen med fungerande arbetssätt och tydliga nästa steg."
+            title: "För företag som vill komma igång snabbt och enkelt med AI",
+            desc: "Kom igång med AI på 3 timmar och börja spara tid direkt."
         }
     ];
 
@@ -92,7 +92,7 @@ const CredibilitySection: React.FC = () => {
                                 <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                             </Button>
                             <p className="mt-4 text-sm text-slate-500 font-medium tracking-wide">
-                                Ingen förberedelse. Inga förpliktelser.
+                                Gratis demo på 20 minuter.
                             </p>
                         </motion.div>
                     </div>

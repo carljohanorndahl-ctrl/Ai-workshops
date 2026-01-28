@@ -21,7 +21,7 @@ const ProductDefinition: React.FC = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    En fokuserad AI-workshop på 3 timmar
+                    En praktisk AI-workshop för snabb affärsnytta
                 </motion.h2>
                 
                 <motion.p 
@@ -31,7 +31,7 @@ const ProductDefinition: React.FC = () => {
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                 >
-                    Vi identifierar var AI gör störst nytta i er verksamhet. Inget flum, bara konkreta lösningar anpassade för er verklighet.
+                    Vi identifierar var AI gör störst nytta i er verksamhet. Konkreta lösningar anpassade för ert företag.
                 </motion.p>
 
                 <motion.div 
@@ -44,7 +44,7 @@ const ProductDefinition: React.FC = () => {
                     {[
                         '3 timmar på plats',
                         'Konkreta AI-workflows',
-                        'Action Plan & Strategi'
+                        'Tydlig handlingsplan'
                     ].map((item, index) => (
                         <div key={index} className="flex items-center gap-3">
                             <div className="w-6 h-6 rounded-full bg-[#EAF5DF] flex items-center justify-center shrink-0">
@@ -70,7 +70,7 @@ const ProductDefinition: React.FC = () => {
                         Boka en demo
                     </Button>
                     <span className="text-slate-500 text-sm font-medium border-b border-transparent hover:border-slate-300 transition-colors cursor-default">
-                        Inga förpliktelser. Kort genomgång först.
+                        Gratis demo på 20 minuter.
                     </span>
                 </motion.div>
 

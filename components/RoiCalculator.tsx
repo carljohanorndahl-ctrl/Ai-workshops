@@ -29,8 +29,8 @@ const RoiCalculator: React.FC = () => {
 
             <div className="max-w-4xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold text-slate-900 mb-4 tracking-tight">Vad är 12 timmar värt?</h2>
-                    <p className="text-xl text-slate-600 font-medium">Räkna på besparingen om vi automatiserar det tråkiga.</p>
+                    <h2 className="text-4xl font-bold text-slate-900 mb-4 tracking-tight">Vad är en workshop värd?</h2>
+                    <p className="text-xl text-slate-600 font-medium">Räkna på besparingen om vi effektiviserar er verksamhet med AI .</p>
                 </div>
 
                 <motion.div 

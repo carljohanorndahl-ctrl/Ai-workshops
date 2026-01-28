@@ -7,38 +7,38 @@ const BusinessValue: React.FC = () => {
     const features = [
         {
             category: "Försäljning",
-            headline: "Mer tid till affärer, mindre tid på admin",
+            headline: "Effektivisera för säljteamet",
             subheading: "Maximera säljteamets effektivitet med smarta verktyg.",
             bullets: [
-                "AI-stöd för mötesförberedelser",
-                "Automatiska uppföljningsmail",
+                "Stöd för att hitta leads mer effektivt.",
+                "Personligt AI-stöd för säljarens vardag",
+                "Bättre förberedda möten – varje gång.",
                 "Sammanfattning av kundmöten",
-                "Tydliga nästa steg i pipelinen",
-                "Personlig säljassistent i vardagen"
+                "Snabbare uppföljning till kunder"
             ]
         },
         {
             category: "Kundservice",
-            headline: "Snabbare svar utan att tumma på kvalitet",
-            subheading: "Höj servicenivån samtidigt som ni sparar tid.",
+            headline: "Snabba upp kundsupporten",
+            subheading: "Höj servicenivån utan att tumma på kvalitét",
             bullets: [
-                "Sammanfattning av kundärenden",
-                "Förslag på svar i rätt ton",
-                "Jämn kvalitet vid hög belastning",
+                "Hjälp med att uppnå snabbare svarstider",
+                "Förslag på kundsvar enligt hur företaget arbetar i rätt ton",
+                "Egen GPT med intern information för snabbare hantering",
                 "Kunskapsstöd till teamet",
-                "Mindre stress i vardagen"
+                "Stöd för nya medarbetare att lära sig arbetet"
             ]
         },
         {
             category: "Ledning",
-            headline: "Bättre beslutsunderlag. Färre möten.",
+            headline: "Bättre beslutsunderlag, analyser och insikter.",
             subheading: "Få snabbare insikter och tydligare överblick.",
             bullets: [
-                "Sammanfattning av möten och rapporter",
-                "Snabba analyser och insikter",
-                "Beslutsstöd inför ledningsmöten",
-                "Tydligare prioriteringar",
-                "Full överblick utan detaljstress"
+                "Sammanfatta möten till tydliga beslut och åtgärder",
+                "Skapa presentationer, rapporter och underlag",
+                "Hanlingsplan, beslutsstöd inför ledningsmöten",
+                "AI som stöd för konkurrensanalys",
+                "AI som stöd för högsta kvalitét för proffesionellt skrivande"
             ]
         }
     ];
@@ -55,7 +55,7 @@ const BusinessValue: React.FC = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                     >
-                        Praktisk effektivisering för era viktigaste funktioner
+                        Effektivisera där det gör störst skillnad
                     </motion.h2>
                 </div>
 

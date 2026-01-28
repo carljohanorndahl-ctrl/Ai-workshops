@@ -25,7 +25,7 @@ const FinalCta: React.FC = () => {
                     Redo att skala upp effektiviteten?
                 </h2>
                 <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto font-medium">
-                    Boka en demo så visar vi exakt hur vi kan automatisera era flaskhalsar. Inget säljsnack, bara konkreta lösningar.
+                    Boka en demo så visar vi exakt hur vi kan automatisera era flaskhalsar. Konkret och tydligt.
                 </p>
                 
                 <div className="flex flex-col items-center gap-6 pt-6">
@@ -35,8 +35,8 @@ const FinalCta: React.FC = () => {
                     >
                         Boka en demo
                     </Button>
-                    <a href="mailto:hej@ai-workshops.se" className="text-slate-500 hover:text-[#A9D98B] transition-colors border-b border-transparent hover:border-[#A9D98B] pb-0.5 font-medium">
-                        Eller maila oss: hej@ai-workshops.se
+                    <a href="simplestudio-ai@gmail.com" className="text-slate-500 hover:text-[#A9D98B] transition-colors border-b border-transparent hover:border-[#A9D98B] pb-0.5 font-medium">
+                        Eller maila oss: simplestudio-ai@gmail.com
                     </a>
                 </div>
             </div>

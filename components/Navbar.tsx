@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
                         <circle cx="50" cy="50" r="45" stroke="currentColor" strokeWidth="6" />
                         <path d="M28 38C28 38 32 72 40 72C48 72 50 55 50 55C50 55 52 72 60 72C68 72 72 38 72 38" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
-                    Workshops
+                    Simplestudio
                 </a>
 
                 {/* Desktop Nav */}

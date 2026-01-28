@@ -7,20 +7,20 @@ const ProductTimeline: React.FC = () => {
         {
             icon: <Search className="w-6 h-6 text-slate-900" />,
             title: "Analys",
-            subtitle: "Vi hittar flaskhalsarna",
-            desc: "Vi kartlägger era nuvarande processer och identifierar var AI gör mest nytta direkt."
+            subtitle: "Vi identifierar era största flaskhalsar",
+            desc: "Vi går igenom era nuvarande arbetssätt och identifierar var AI kan skapa mest affärsnytta"
         },
         {
             icon: <Code2 className="w-6 h-6 text-slate-900" />,
             title: "Workshop",
-            subtitle: "Vi bygger lösningen live",
-            desc: "Under en halvdag sätter vi upp era custom GPTs och automationer. Ingen långdragen utvecklingstid."
+            subtitle: "Ni får konkreta exempel på hur AI kan användas i er verksamhet",
+            desc: "Tillsammans går vi igenom praktiska AI-exempel inom sälj, kundservice och ledning"
         },
         {
             icon: <Rocket className="w-6 h-6 text-slate-900" />,
             title: "Resultat",
-            subtitle: "Ni sparar tid från Dag 1",
-            desc: "Teamet går därifrån med fungerande verktyg och kunskapen att använda dem."
+            subtitle: "Ni vet exakt var AI kan göra mest nytta hos er.",
+            desc: "Ni går därifrån med en tydlig AI-riktning för ert företag."
         }
     ];
 

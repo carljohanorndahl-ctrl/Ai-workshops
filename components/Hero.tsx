@@ -68,10 +68,10 @@ const Hero: React.FC = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-[1.1] mb-6 tracking-tight">
-                            Jobba smartare med AI?
+                            Effektivisera företaget med AI
                         </h1>
                         <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl font-medium">
-                            Från sälj och admin till HR. Vi implementerar praktisk AI-automation som frigör hundratals timmar – på en enda förmiddag.
+                           Konkret AI-Workshop hur ni effektiviserar företaget från sälj och kundsupport till ledningsarbete med hjälp av AI.
                         </p>
                     </motion.div>
 
@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
                             className="w-full sm:w-auto !text-slate-600 hover:!text-slate-900 hover:!bg-slate-100" 
                             onClick={() => document.getElementById('product-definition')?.scrollIntoView({ behavior: 'smooth' })}
                         >
-                            Vad ingår
+                            Vad ingår?
                         </Button>
                     </motion.div>
 
@@ -100,7 +100,7 @@ const Hero: React.FC = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.4 }}
                     >
-                        Se effekten på 15 minuter. Inga förpliktelser.
+                        Gratis demo på 20 minuter.
                     </motion.p>
                 </div>
 

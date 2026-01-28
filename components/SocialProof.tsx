@@ -3,16 +3,16 @@ import React from 'react';
 const SocialProof: React.FC = () => {
     const testimonials = [
         {
-            quote: "En praktisk och tydlig workshop som var direkt användbar.",
-            author: "COO"
+            quote: "Workshopen gav oss tydlig struktur och flera konkreta AI-idéer vi kan ta vidare.",
+            author: "VD, A Bolsöy Production"
         },
         {
-            quote: "Hjälpte oss snabbt att implementera AI i flera processer.",
-            author: "VD"
+            quote: "Vi fick snabbt en tydlig bild av hur AI kan användas för att effektivisera både sälj och kundservice.",
+            author: "VD, Returbo"
         },
         {
-            quote: "Carl-Johan visade hur AI kunde anpassas till just vårt företag.",
-            author: "Säljchef"
+            quote: "Carl-Johan var tydlig, konkret och höll fokus på det som var relevant för vår verksamhet.",
+            author: "Ägare, Ögonlasern"
         }
     ];
 
