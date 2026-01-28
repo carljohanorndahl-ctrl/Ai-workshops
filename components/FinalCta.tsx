@@ -36,7 +36,7 @@ const FinalCta: React.FC = () => {
                         Boka en demo
                     </Button>
                     <a href="simplestudio-ai@gmail.com" className="text-slate-500 hover:text-[#A9D98B] transition-colors border-b border-transparent hover:border-[#A9D98B] pb-0.5 font-medium">
-                        Eller maila oss: simplestudio-ai@gmail.com
+                        Eller maila oss: simplestudio.ai@gmail.com
                     </a>
                 </div>
             </div>
