@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
                             {link.name}
                         </a>
                     ))}
-                    <Button variant="primary" className="!py-2 !px-5 text-sm" onClick={() => window.location.href = 'https://calendly.com/ai-assistenten-team/30min?month=2026-01'}>
+                    <Button variant="primary" className="!py-2 !px-5 text-sm" onClick={() => window.open('https://calendly.com/ai-assistenten-team/30min?month=2026-01', '_blank')}>
                         Boka en demo
                     </Button>
                 </div>
@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
                             ))}
                             <Button className="w-full" onClick={() => {
                                 setMobileMenuOpen(false);
-                                window.location.href = 'https://calendly.com/ai-assistenten-team/30min?month=2026-01';
+                                window.open('https://calendly.com/ai-assistenten-team/30min?month=2026-01', '_blank');
                             }}>
                                 Boka en demo
                             </Button>

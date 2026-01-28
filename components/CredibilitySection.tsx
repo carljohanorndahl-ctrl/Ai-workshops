@@ -6,20 +6,20 @@ import { ArrowRight } from 'lucide-react';
 const CredibilitySection: React.FC = () => {
     const points = [
         {
-            title: "För företag som vill effektivisera verksamheten med AI",
-            desc: "Ni får tydliga sätt hur ni kan använda AI i arbetet."
+            title: "För ledningsgrupper som måste fatta beslut",
+            desc: "För organisationer där tid, tydlighet och genomförande är avgörande."
         },
         {
-            title: "För sälj och kundservice som vill jobba snabbare",
-            desc: "Effektivare uppföljning, snabbare svar och jämn kvalitet i all kundkommunikation."
+            title: "Affärsnytta före teknik",
+            desc: "Vi utgår från effekt, tidsbesparing och konkreta resultat – inte AI-verktyg."
         },
         {
-            title: "För ledningsgrupper som behöver bättre beslutsunderlag",
-            desc: "Sammanfattningar, analyser och tydliga insikter som gör beslutsfattandet enklare."
+            title: "På plats, i er vardag",
+            desc: "Workshops genomförs on-site i Stockholm och runt om i Sverige."
         },
         {
-            title: "För företag som vill komma igång snabbt och enkelt med AI",
-            desc: "Kom igång med AI på 3 timmar och börja spara tid direkt."
+            title: "Från analys till faktisk förändring",
+            desc: "Ni lämnar workshopen med fungerande arbetssätt och tydliga nästa steg."
         }
     ];
 
@@ -85,14 +85,14 @@ const CredibilitySection: React.FC = () => {
                         >
                             <Button 
                                 variant="primary" 
-                                onClick={() => window.location.href = 'https://calendly.com/ai-assistenten-team/30min?month=2026-01'}
+                                onClick={() => window.open('https://calendly.com/ai-assistenten-team/30min?month=2026-01', '_blank')}
                                 className="text-lg px-8 py-3 shadow-xl shadow-[#BFE3A1]/10 hover:shadow-[#BFE3A1]/20 group"
                             >
                                 Boka en demo 
                                 <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                             </Button>
                             <p className="mt-4 text-sm text-slate-500 font-medium tracking-wide">
-                                Gratis demo på 20 minuter.
+                                Ingen förberedelse. Inga förpliktelser.
                             </p>
                         </motion.div>
                     </div>

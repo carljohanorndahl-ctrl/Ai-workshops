@@ -111,7 +111,7 @@ const BusinessValue: React.FC = () => {
                 >
                     <Button 
                         variant="primary" 
-                        onClick={() => window.location.href = 'https://calendly.com/ai-assistenten-team/30min?month=2026-01'}
+                        onClick={() => window.open('https://calendly.com/ai-assistenten-team/30min?month=2026-01', '_blank')}
                         className="text-lg px-10 py-4 shadow-xl shadow-[#BFE3A1]/10 hover:shadow-[#BFE3A1]/20 mb-4"
                     >
                         Boka en demo
