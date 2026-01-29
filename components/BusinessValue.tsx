@@ -10,11 +10,11 @@ const BusinessValue: React.FC = () => {
             headline: "Effektivisera för säljteamet",
             subheading: "Maximera säljteamets effektivitet med smarta verktyg.",
             bullets: [
-                "Stöd för att hitta leads mer effektivt.",
-                "Personligt AI-stöd för säljarens vardag",
-                "Bättre förberedda möten – varje gång.",
-                "Sammanfattning av kundmöten",
-                "Snabbare uppföljning till kunder"
+                "Hur AI kan användas för att hitta och strukturera leads",
+                "Exempel på personligt AI-stöd i säljarens vardag",
+                "Hur AI kan förbättra mötesförberedelser",
+                "Hur kundmöten kan sammanfattas automatiskt",
+                "Arbetssätt för snabbare uppföljning med AI"
             ]
         },
         {
@@ -22,11 +22,10 @@ const BusinessValue: React.FC = () => {
             headline: "Snabba upp kundsupporten",
             subheading: "Höj servicenivån utan att tumma på kvalitét",
             bullets: [
-                "Hjälp med att uppnå snabbare svarstider",
-                "Förslag på kundsvar enligt hur företaget arbetar i rätt ton",
-                "Egen GPT med intern information för snabbare hantering",
-                "Kunskapsstöd till teamet",
-                "Stöd för nya medarbetare att lära sig arbetet"
+                "Hur AI kan användas för snabbare svarstider",
+                "Exempel på kundsvar i rätt tonalitet",
+                "Hur intern kunskap kan samlas i en AI-lösning",
+                "Hur AI kan stötta onboarding av nya medarbetare"
             ]
         },
         {
@@ -34,11 +33,10 @@ const BusinessValue: React.FC = () => {
             headline: "Bättre beslutsunderlag, analyser och insikter.",
             subheading: "Få snabbare insikter och tydligare överblick.",
             bullets: [
-                "Sammanfatta möten till tydliga beslut och åtgärder",
-                "Skapa presentationer, rapporter och underlag",
-                "Hanlingsplan, beslutsstöd inför ledningsmöten",
-                "AI som stöd för konkurrensanalys",
-                "AI som stöd för högsta kvalitét för proffesionellt skrivande"
+                "Hur möten kan sammanfattas till beslut och åtgärder",
+                "Hur AI kan användas för presentationer och beslutsunderlag",
+                "Exempel på AI-stöd för analyser och omvärldsbevakning",
+                "AI som stöd för professionellt skrivande"
             ]
         }
     ];
@@ -48,15 +46,24 @@ const BusinessValue: React.FC = () => {
             <div className="max-w-7xl mx-auto px-6">
                 
                 {/* Section Header */}
-                <div className="text-center mb-8 max-w-3xl mx-auto">
+                <div className="text-center mb-12 max-w-3xl mx-auto">
                     <motion.h2 
-                        className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight"
+                        className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight mb-4"
                         initial={{ opacity: 0, y: 10 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                     >
                         Effektivisera där det gör störst skillnad
                     </motion.h2>
+                    <motion.p 
+                        className="text-lg md:text-xl text-slate-600 font-medium"
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.1 }}
+                    >
+                        Vi visar konkreta exempel och arbetssätt för hur AI kan användas i er verksamhet
+                    </motion.p>
                 </div>
 
                 {/* Feature Boxes */}

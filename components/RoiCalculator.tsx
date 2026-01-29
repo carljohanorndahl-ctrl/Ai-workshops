@@ -29,7 +29,7 @@ const RoiCalculator: React.FC = () => {
 
             <div className="max-w-4xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold text-slate-900 mb-4 tracking-tight">Vad är en workshop värd?</h2>
+                    <h2 className="text-4xl font-bold text-slate-900 mb-4 tracking-tight">Hur mycket kan ni spara per månad?</h2>
                     <p className="text-xl text-slate-600 font-medium">Räkna på besparingen om vi effektiviserar er verksamhet med AI .</p>
                 </div>
 
@@ -65,7 +65,7 @@ const RoiCalculator: React.FC = () => {
                             
                             <div className="p-4 bg-[#EAF5DF]/50 border border-[#BFE3A1]/30 rounded-xl">
                                 <p className="text-sm text-slate-600 leading-relaxed">
-                                    Vi antar att vi sparar <span className="font-bold text-slate-900">3 timmar</span> per person/vecka genom borttagen administration.
+                                    Vi antar att vi sparar <span className="font-bold text-slate-900">3 timmar</span> per person/vecka genom effektivare arbete.
                                 </p>
                             </div>
                         </div>
