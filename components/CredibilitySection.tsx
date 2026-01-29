@@ -6,20 +6,20 @@ import { ArrowRight } from 'lucide-react';
 const CredibilitySection: React.FC = () => {
     const points = [
         {
-            title: "För ledningsgrupper som måste fatta beslut",
-            desc: "För organisationer där tid, tydlighet och genomförande är avgörande."
+            title: "Företag som snabbt vill se resultat med AI",
+            desc: "När effekt och tidsbesparing måste synas direkt."
         },
         {
-            title: "Affärsnytta före teknik",
-            desc: "Vi utgår från effekt, tidsbesparing och konkreta resultat – inte AI-verktyg."
+            title: "Sälj- och kundsupportteam som vill effektivisera",
+            desc: "Mindre manuellt arbete. Bättre struktur och tempo."
         },
         {
-            title: "På plats, i er vardag",
-            desc: "Workshops genomförs on-site i Stockholm och runt om i Sverige."
+            title: "Ledningsgrupper som behöver bättre överblick",
+            desc: "Tydligare beslutsunderlag och smartare arbetssätt."
         },
         {
-            title: "Från analys till faktisk förändring",
-            desc: "Ni lämnar workshopen med fungerande arbetssätt och tydliga nästa steg."
+            title: "Organisationer som vill jobba smartare",
+            desc: "Fungerande system istället för fler verktyg."
         }
     ];
 
