@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-[1.1] mb-6 tracking-tight">
-                            Effektivisera företaget med AI
+                            AI-workshops som ger resultat
                         </h1>
                         <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl font-medium">
                            Konkret AI-Workshop hur ni effektiviserar företaget från sälj och kundsupport till ledningsarbete med hjälp av AI.
