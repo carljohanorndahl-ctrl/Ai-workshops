@@ -85,7 +85,7 @@ const CredibilitySection: React.FC = () => {
                         >
                             <Button 
                                 variant="primary" 
-                                onClick={() => window.open('https://calendly.com/ai-assistenten-team/30min?month=2026-01', '_blank')}
+                                onClick={() => window.open('https://calendly.com/carljohan-orndahl/30min', '_blank')}
                                 className="text-lg px-8 py-3 shadow-xl shadow-[#BFE3A1]/10 hover:shadow-[#BFE3A1]/20 group"
                             >
                                 Boka en demo 

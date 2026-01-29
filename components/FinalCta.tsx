@@ -31,12 +31,12 @@ const FinalCta: React.FC = () => {
                 <div className="flex flex-col items-center gap-6 pt-6">
                     <Button 
                         className="text-xl px-12 py-5 shadow-2xl shadow-[#BFE3A1]/40 hover:shadow-[#BFE3A1]/60 transition-shadow duration-300"
-                        onClick={() => window.open('https://calendly.com/ai-assistenten-team/30min?month=2026-01', '_blank')}
+                        onClick={() => window.open('https://calendly.com/carljohan-orndahl/30min', '_blank')}
                     >
                         Boka en demo
                     </Button>
-                    <a href="simplestudio-ai@gmail.com" className="text-slate-500 hover:text-[#A9D98B] transition-colors border-b border-transparent hover:border-[#A9D98B] pb-0.5 font-medium">
-                        Eller maila oss: simplestudio.ai@gmail.com
+                    <a href="hej@simplestudio.se" className="text-slate-500 hover:text-[#A9D98B] transition-colors border-b border-transparent hover:border-[#A9D98B] pb-0.5 font-medium">
+                        Eller maila oss: hej@simplestudio.se
                     </a>
                 </div>
             </div>

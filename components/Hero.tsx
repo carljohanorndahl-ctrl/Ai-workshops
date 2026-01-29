@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
-                        <Button className="w-full sm:w-auto text-lg px-8 py-4 group" onClick={() => window.open('https://calendly.com/ai-assistenten-team/30min?month=2026-01', '_blank')}>
+                        <Button className="w-full sm:w-auto text-lg px-8 py-4 group" onClick={() => window.open('https://calendly.com/carljohan-orndahl/30min', '_blank')}>
                             Boka en demo
                             <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                         </Button>
