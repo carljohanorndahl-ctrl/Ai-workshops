@@ -8,7 +8,7 @@ const BusinessValue: React.FC = () => {
         {
             category: "Försäljning",
             headline: "Effektivisera för säljteamet",
-            subheading: "Maximera säljteamets effektivitet med smarta verktyg.",
+            subheading: "Maximera säljteamets resultat med smartare användning av AI.",
             bullets: [
                 "Öka konverteringen per lead",
                 "Fokusera på rätt leads vid rätt tidpunkt",
