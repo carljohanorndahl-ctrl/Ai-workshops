@@ -10,11 +10,11 @@ const BusinessValue: React.FC = () => {
             headline: "Effektivisera för säljteamet",
             subheading: "Maximera säljteamets effektivitet med smarta verktyg.",
             bullets: [
-                "Hur AI kan användas för att hitta och strukturera leads",
-                "Exempel på personligt AI-stöd i säljarens vardag",
-                "Hur AI kan förbättra mötesförberedelser",
-                "Hur kundmöten kan sammanfattas automatiskt",
-                "Arbetssätt för snabbare uppföljning med AI"
+                "Öka konverteringen per lead",
+                "Fokusera på rätt leads vid rätt tidpunkt",
+                "Skala top-performers arbetssätt till hela säljteamet",
+                "Skapa mer träffsäkra budskap för specifika leads",
+                "Få betydligt snabbare och mer träffsäkra uppföljningar"
             ]
         },
         {
